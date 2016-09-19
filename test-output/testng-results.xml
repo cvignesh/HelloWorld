@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="48607" started-at="2016-04-04T17:20:12Z" finished-at="2016-04-04T17:21:01Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="48607" started-at="2016-04-04T17:20:12Z" finished-at="2016-04-04T17:21:01Z">
+      <class name="com.ausum.qa.seleniumtests.LoginSuccessTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.ausum.qa.seleniumtests.LoginSuccessTest@60dcc9fe]" name="setUp" is-config="true" duration-ms="33948" started-at="2016-04-04T13:20:12Z" finished-at="2016-04-04T13:20:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="test(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.ausum.qa.seleniumtests.LoginSuccessTest@60dcc9fe]" name="test" duration-ms="11978" started-at="2016-04-04T13:20:46Z" data-provider="getData" finished-at="2016-04-04T13:20:58Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[sjeyakumarv]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Sathya2016]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[28]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.ausum.qa.seleniumtests.LoginSuccessTest@60dcc9fe]" name="closeBrowser" is-config="true" duration-ms="2650" started-at="2016-04-04T13:20:58Z" finished-at="2016-04-04T13:21:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.ausum.qa.seleniumtests.LoginSuccessTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
